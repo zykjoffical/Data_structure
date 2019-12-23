@@ -81,6 +81,28 @@ seqstring *substring(seqstring S, int i, int len)
 	return r;
 }
 
+//×Ö·û´®µÄÆÓËØÄ£Ê½Æ¥ÅäËã·¨
+int index(seqstring p, seqstring t)
+{
+	int i, j;
+	i = 0; j = 0;
+	while (i < t.length && j < p.length)
+	{
+		if (p.str[j] == t.str[i])
+		{
+			j++; i++;
+		}
+		else {
+			i = i + j - 1;
+			j = 0;
+		}
+	}
+		if (j == p.length)
+			return (i - j);
+		else
+			return -1;
+}
+
 int main()
 {
 

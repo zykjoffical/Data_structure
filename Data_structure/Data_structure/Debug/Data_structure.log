@@ -1,3 +1,2 @@
-﻿  linear_list.c
-  Data_structure.vcxproj -> E:\Code\C C++\数据结构\Data_structure\Debug\Data_structure.exe
-  Data_structure.vcxproj -> E:\Code\C C++\数据结构\Data_structure\Debug\Data_structure.pdb (Full PDB)
+﻿  binary_sort_tree.c
+e:\code\c c++\数据结构\data_structure\data_structure\binary_sort_tree.c(48): error C4703: 使用了可能未初始化的本地指针变量“f”

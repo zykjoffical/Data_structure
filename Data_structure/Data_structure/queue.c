@@ -69,7 +69,7 @@ int c_dele(queue *q)
 }
 
 
-int main()
+int main05()
 {
 
 	system("pause");

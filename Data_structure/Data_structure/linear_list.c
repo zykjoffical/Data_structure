@@ -84,7 +84,7 @@ int empty(seqlist *L)
 //返回线性表元素位置
 int find(seqlist *L, int data)
 {
-	int i;
+	int i = 0;
 	while (i < L->length && L->data[i] != data)
 		i++;
 	return (i < L->length ? i : -1);
@@ -96,13 +96,12 @@ int getData(seqlist *L, int i)
 	if (i <= 0 || i > L->length)
 	{
 		printf("i的位置不存在！");
-		return;
+		return 1;
 	}
 	return L->data[i - 1];
-
 }
 
-int main()
+int main02()
 {
 	int i;
 	//定义线性表

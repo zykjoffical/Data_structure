@@ -67,7 +67,7 @@ linklist *insert(linklist *head, int x, int i)
 	linklist *p, *q;
 	q = find(head, i-1);/*查找第i个结点*/
 	if (!q&&i != 1)
-		printf("\n 不能找到第: %d 个节点，不能插入 %d\n", i-1 x);
+		printf("\n 不能找到第: %d 个节点，不能插入 %d\n", i-1 ,x);
 	else
 	{
 		p = (linklist*)malloc(sizeof(linklist));/*分配空间*/
@@ -188,7 +188,7 @@ linklist* creatlistr()
 	return head;
 }
 
-int main()
+int main03()
 {
 
 	system("pause");

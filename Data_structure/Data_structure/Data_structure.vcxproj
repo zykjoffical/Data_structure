@@ -146,12 +146,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binary_sort_tree.c" />
+    <ClCompile Include="binary_tree.c" />
     <ClCompile Include="linear_list.c" />
     <ClCompile Include="link_list.c" />
     <ClCompile Include="link_stack.c" />
+    <ClCompile Include="map.c" />
     <ClCompile Include="queue.c" />
     <ClCompile Include="stack.c" />
     <ClCompile Include="str.c" />
+    <ClCompile Include="threaded_binary_tree.c" />
+    <ClCompile Include="tree.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

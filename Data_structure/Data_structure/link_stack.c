@@ -14,7 +14,7 @@ int read(linkstack top)
 {
 	if (!top) {
 		printf("Á´Ê½Õ»Îª¿Õ\n");
-		return;
+		return 1;
 	}
 	return top->data;
 }
@@ -44,7 +44,7 @@ linkstack pop(linkstack top)
 	return top;
 }
 
-int main()
+int main04()
 {
 
 	system("pause");
